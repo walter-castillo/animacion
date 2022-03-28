@@ -1,0 +1,17 @@
+.animacion {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.mostrarLeft {
+    animation: mostrarLeft 1s;
+}
+
+@keyframes mostrarLeft {
+    0% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
